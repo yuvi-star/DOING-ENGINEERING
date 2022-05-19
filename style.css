@@ -1,0 +1,115 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background-image: url(doeng.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background-color: #2bab0d;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-2
+{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+    display: block;
+    margin: 10px;
+}
+.sub-menu-3
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-3
+{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul
+{
+    display: block;
+    margin: 10px;
+}
+.sub-menu-4
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-4
+{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul
+{
+    display: block;
+    margin: 10px;
+}
